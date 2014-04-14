@@ -22,11 +22,11 @@ html, body {height: 100%;}
 #wrap {min-height: 100%;}
 
 #main {overflow:auto;
-	padding-bottom: 150px;}  /* must be same height as the footer */
+	padding-bottom: 21px;}  /* must be same height as the footer */
 
-.footer {position: relative;
-	margin-top: -150px; /* negative value of footer height */
-	height: 150px;
+footer {position: relative;
+	margin-top: -21px; /* negative value offooter height */
+	height: 21px;
 	clear:both;} 
 
 /*Opera Fix*/
@@ -43,27 +43,40 @@ body:before {
 .full-width{
 	width: 100%;
 }
-.header{
-	background-color: #181d1f;
-	color: #ecf0f1;
+header{
+	color: #181d1f;
+	margin-bottom: 30px;
 }
-.header a{
-	color: #ecf0f1;
+header h1{
+	font-weight: bold;
+	font-size: 38px;
+	margin: 0;
 }
-.footer{
+header h2{
+	font-size: 20px;
+	line-height: 10px;
+}
+header a{
+	color: #181d1f;
+}
+footer{
 	background-color: #181d1f;
 	color: #ecf0f1;
 }
 
-.footer a{
+footer span.right a{
 	color: #ecf0f1;
+}
+.right{
+	float: right;
 }
 
 .container{
 }
 
 nav {
-    margin: 13px 0 0 0;
+    margin: 25px 0 0 0;
+    font-size: 21px;
 }
 
 nav ul{
@@ -78,10 +91,15 @@ nav ul li {
 nav a {
     text-decoration: none;
     color: #ecf0f1;
+    -webkit-transition:color 250ms; /* For Safari 3.1 to 6.0 */
+    -moz-transition:color 250ms; /* For Safari 3.1 to 6.0 */
+    -o-transition:color 250ms; /* For Safari 3.1 to 6.0 */
+		transition:color 250ms;
 }
  
 nav a:hover {
-    text-decoration: underline;
+    color: #e74c3c;
+
 }
 /* #Media Queries
 ================================================== */
@@ -94,12 +112,18 @@ nav a:hover {
 
 	/* All Mobile Sizes (devices and browser) */
 	@media only screen and (max-width: 767px) {
-		.header{
+		header{
 			text-align: center;
 		}
 
 		nav ul{
 			float: none;
+		}
+		footer{
+			text-align: center;
+		}
+		footer span{
+			display: none;
 		}
 	}
 
