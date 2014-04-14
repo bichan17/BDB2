@@ -1,0 +1,14 @@
+---
+layout: default
+---
+<h2>{{ page.title }}</h2>
+
+<div class="post">
+{{ content }}
+</div>
+<h3>More Projects</h3>
+<ul class="posts">
+  {% for post in site.posts %}
+    <li><a href="{{ post.url }}">{{ post.title }}</a> {{ post.caption }}</li>
+  {% endfor %}
+</ul>
