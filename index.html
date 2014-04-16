@@ -1,13 +1,8 @@
 ---
 layout: default
-title: Eric Bichan New Media Developppper
+title: Eric Bichan New Media Developer
+type: supermain
 ---
-
-<div id="home">
-  <h4>work</h4>
-    {% for post in site.posts %}
-      <div class = "{% cycle 'seven columns', 'seven columns offset-by-one' %}">
-        <a href="{{ post.url }}">{{ post.title }}</a> {{ post.caption }}
-      </div>
-    {% endfor %}
+<div class="content">
+  {% include work.html %}
 </div>

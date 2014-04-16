@@ -3,6 +3,7 @@ layout: project
 title: SASB Materiality Map
 categories: work
 caption: An interactive chart thing
+image-small: /images/steve.jpg
 ---
 
 yes hello this is my SASB!

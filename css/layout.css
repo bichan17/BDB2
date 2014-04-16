@@ -45,7 +45,6 @@ body:before {
 }
 header{
 	color: #181d1f;
-	margin-bottom: 30px;
 }
 header h1{
 	font-weight: bold;
@@ -57,11 +56,18 @@ header h2{
 	line-height: 10px;
 }
 header a{
+	text-decoration: none;
+	color: #181d1f;
+}
+header a:hover{
 	color: #181d1f;
 }
 footer{
 	background-color: #181d1f;
 	color: #ecf0f1;
+}
+footer .container{
+	margin-bottom: 0;
 }
 
 footer span.right a{
@@ -72,6 +78,7 @@ footer span.right a{
 }
 
 .container{
+	margin-bottom: 30px;
 }
 
 nav {
@@ -84,13 +91,13 @@ nav ul{
 }
 nav ul li {
     display: inline;
-    margin: 0 20px 0 0;
-    margin-bottom: 130px;
+}
+nav ul li:nth-child(n+2) {
+    display: inline;
+    margin: 0 0 0 20px;
 }
  
 nav a {
-    text-decoration: none;
-    color: #ecf0f1;
     -webkit-transition:color 250ms; /* For Safari 3.1 to 6.0 */
     -moz-transition:color 250ms; /* For Safari 3.1 to 6.0 */
     -o-transition:color 250ms; /* For Safari 3.1 to 6.0 */
@@ -100,6 +107,45 @@ nav a {
 nav a:hover {
     color: #e74c3c;
 
+}
+#work{
+	padding-top: 15px;
+}
+#work h4{
+	margin-bottom: 15px;
+}
+#work img{
+	width: 100%;
+	 border-radius: 8px 8px 0 0; 
+}
+#work article a{
+	/*font-weight: bold;*/
+	background: #181d1f;
+	color: white;
+	display: block;
+	border-radius: 10px 10px 8px 8px;
+	-webkit-transition:background 250ms; /* For Safari 3.1 to 6.0 */
+  -moz-transition:background 250ms; /* For Safari 3.1 to 6.0 */
+  -o-transition:background 250ms; /* For Safari 3.1 to 6.0 */
+	transition:background 250ms;
+	text-decoration: none;
+
+}
+#work article a:hover{
+	background: #e74c3c;
+}
+#work article a div{
+	padding: 0px 10px 5px 10px;
+}
+#work article a h6{
+	font-weight: bold;
+}
+.item{
+	margin-bottom: 20px;
+}
+#about{
+	padding-top: 30px;
+	border-top: 1px solid;
 }
 /* #Media Queries
 ================================================== */
@@ -119,11 +165,17 @@ nav a:hover {
 		nav ul{
 			float: none;
 		}
+		nav ul li{
+			margin: 0 20px 0 0;
+		}
 		footer{
 			text-align: center;
 		}
 		footer span{
 			display: none;
+		}
+		#work div.item{
+			margin-bottom: 5px;
 		}
 	}
 
