@@ -4,13 +4,16 @@
   {% endif %}
     {% for post in site.posts %}
       {% if page.type == 'project' %}
-      <div class = "four columns item">
+      <div class = "four columns item more">
+        <article>
+          <a href="{{ post.url }}"><img src="{{ post.image-small }}" alt="{{ post.title }}"><div><h6>{{ post.title }}</h6></div></a>
+        </article>
       {% else %}
       <div class = "eight columns item">
-      {% endif %}
         <article>
           <a href="{{ post.url }}"><img src="{{ post.image-small }}" alt="{{ post.title }}"><div><h6>{{ post.title }}</h6>{{ post.caption }}</div></a>
         </article>
+      {% endif %}
       </div>
     {% endfor %}
 </div>

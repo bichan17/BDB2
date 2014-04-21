@@ -2,7 +2,7 @@
 layout: project
 title: Showwire
 categories: work
-caption: A Google Maps and Last.fm API Mashup
+caption: Google Maps and Last.fm API Mashup
 image-small: /images/steve.jpg
 ---
 

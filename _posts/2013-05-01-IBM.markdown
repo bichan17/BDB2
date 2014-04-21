@@ -1,9 +1,10 @@
 ---
 layout: project
-title: IBM developerWorks Interactive Infographic
+title: IBM developerWorks Infographic
 categories: work
-caption: An interactive infographic!
-image-small: /images/steve.jpg
+caption: Interactive embeddable infographic
+image-small: /images/ibm.jpg
+link: something.com
 ---
 
 yes hello this is my IBM

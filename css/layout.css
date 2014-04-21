@@ -45,6 +45,8 @@ body:before {
 }
 header{
 	color: #181d1f;
+	margin-top: 10px;
+
 }
 header h1{
 	font-weight: bold;
@@ -78,7 +80,7 @@ footer span.right a{
 }
 
 .container{
-	margin-bottom: 30px;
+	margin-bottom: 15px;
 }
 
 nav {
@@ -109,7 +111,6 @@ nav a:hover {
 
 }
 #work{
-	padding-top: 15px;
 }
 #work h4{
 	margin-bottom: 15px;
@@ -120,6 +121,7 @@ nav a:hover {
 }
 #work article a{
 	/*font-weight: bold;*/
+	padding: 2px;
 	background: #181d1f;
 	color: white;
 	display: block;
@@ -143,8 +145,11 @@ nav a:hover {
 .item{
 	margin-bottom: 20px;
 }
+.item.more {
+	height: 220px;
+}
 #about{
-	padding-top: 30px;
+	padding-top: 35px;
 	border-top: 1px solid;
 }
 /* #Media Queries
@@ -154,7 +159,11 @@ nav a:hover {
 	@media only screen and (max-width: 959px) {}
 
 	/* Tablet Portrait size to standard 960 (devices and browsers) */
-	@media only screen and (min-width: 768px) and (max-width: 959px) {}
+	@media only screen and (min-width: 768px) and (max-width: 959px) {
+		.item.more {
+			height: 183px;
+		}
+	}
 
 	/* All Mobile Sizes (devices and browser) */
 	@media only screen and (max-width: 767px) {
@@ -176,6 +185,9 @@ nav a:hover {
 		}
 		#work div.item{
 			margin-bottom: 5px;
+		}
+		.item.more {
+			height: auto;
 		}
 	}
 

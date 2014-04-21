@@ -2,8 +2,8 @@
 layout: project
 title: SASB Materiality Map
 categories: work
-caption: An interactive chart thing
-image-small: /images/steve.jpg
+caption: Interactive chart
+image-small: /images/sasb.jpg
 ---
 
-yes hello this is my SASB!
+brandlogic excell blah blah etc
