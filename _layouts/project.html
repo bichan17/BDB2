@@ -3,12 +3,38 @@ layout: default
 type: project
 ---
 <div id="project" class="container">
-  <h2 class="sixteen columns">{{ page.title }}</h2>
+  
 
   <div class="post">
-    <img class="nine columns" src="{{ page.image-small }}" alt="{{ page.title }}">
+    <h3 class="sixteen columns" id="title">{{ page.title }}</h3>
+    <img id="post_img" class="nine columns" src="{{ page.image-small }}" alt="{{ page.title }}">
     <div class="seven columns">
+
       {{ content }}
+      <div class="tech">
+        <h4>Technologies Used</h4>
+        <ul>
+        {% for tech in page.tech %}
+          <li>- {{ tech }}</li>
+        {% endfor %}
+        </ul>
+      </div>
+      
+
+      <div class="links">
+        <div class="outer-center">
+            <div class="product inner-center">
+              {% if page.link %}
+              <a id="launch" target="_blank" href="{{ page.link }}">Launch Project</a>
+              {% endif %}
+
+              {% if page.github %}
+              <a id="github" target="_blank" href="{{ page.github }}">Github Repo</a>
+              {% endif %}
+            </div>
+        </div>
+        <div class="clear"></div>
+      </div>
     </div>
   </div>
 </div>

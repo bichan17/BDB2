@@ -3,7 +3,16 @@ layout: project
 title: SASB Materiality Map
 categories: work
 caption: Interactive chart
+tech: 
+  - HTML
+  - CSS
+  - JavaScript
+  - Excel VBA
+  - Microsoft Excel
 image-small: /images/sasb.jpg
+link: http://www.sasb.org/materiality/sasb-materiality-map/
 ---
 
-brandlogic excell blah blah etc
+The SASB Materiality Map was the first project I worked on during my time with [Brandlogic][brandlogic]. This chart is completely static and does not draw data from a database. Instead, it reads data per cell from a series of JSON files stored on the server. In order to build the chart, the client sent us the raw data in the form of an Excel spreadsheet and it was my job to write a script in Excel VBA that would generate the appropriate HTML markup and JSON files. After that was done, I worked on implementing the chart to the designer's specifications.
+
+[brandlogic]: http://www.brandlogic.com/

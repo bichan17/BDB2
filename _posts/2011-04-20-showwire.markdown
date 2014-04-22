@@ -1,9 +1,17 @@
 ---
 layout: project
-title: Showwire
+title: Show Wire
 categories: work
 caption: Google Maps and Last.fm API Mashup
-image-small: /images/steve.jpg
+tech: 
+  - HTML
+  - CSS
+  - JavaScript
+  - Google Maps API
+  - Last.FM API
+image-small: /images/showwire.jpg
+link: /sites/showwire/
+github: http://github.com/bichan17/showwire
 ---
 
-yes hello this is my Showwire
+Show Wire is a good demonstration on how to integrate an API into a web app. Search an artist and find info on all of their next events and see where they are happening on the map.

@@ -2,8 +2,16 @@
 layout: project
 title: Carrier
 categories: work
-caption: A small toy using box2djs physics!
-image-small: /images/steve.jpg
+caption: A small toy using box2djs physics
+tech: 
+  - HTML
+  - CSS
+  - Object Oriented JavaScript
+  - box2dWeb physics engine
+  - Ivank graphics library
+image-small: /images/carrier.jpg
+link: /sites/carrier/
+github: http://github.com/bichan17/carrier
 ---
 
-yes hello this is my carrier
+Carrier is a small physics toy that is destined to become a larger game in the future. This project was an opportunity to experiment with and learn about a physics engine, as well as learning about how to implement one in JavaScript and the browser. Fly the helicopter around with the arrow keys, and hold the space bar down to pick up objects with the winch.

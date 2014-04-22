@@ -37,11 +37,24 @@ body:before {
 	width:0;
 	margin-top:-32767px;/
 }
-
-/* #Page Styles
-================================================== */
+.outer-center {
+    float: right;
+    right: 50%;
+    position: relative;
+}
+.inner-center {
+    float: right;
+    right: -50%;
+    position: relative;
+}
+.clear {
+    clear: both;
+}
 .full-width{
 	width: 100%;
+}
+.content{
+	margin-top: 3px;
 }
 header{
 	color: #181d1f;
@@ -110,7 +123,22 @@ nav a:hover {
     color: #e74c3c;
 
 }
-#work{
+.links a{
+	background: #181d1f;
+	color: white;
+	display: inline-block;
+	padding: 10px 15px;
+	border-radius: 10px 10px 8px 8px;
+	-webkit-transition:background 250ms; /* For Safari 3.1 to 6.0 */
+  -moz-transition:background 250ms; /* For Safari 3.1 to 6.0 */
+  -o-transition:background 250ms; /* For Safari 3.1 to 6.0 */
+	transition:background 250ms;
+	text-decoration: none;
+	font-weight: bold;
+	vertical-align: middle;
+}
+.links a:nth-child(2){
+	margin-left: 10px;
 }
 #work h4{
 	margin-bottom: 15px;
@@ -121,7 +149,6 @@ nav a:hover {
 }
 #work article a{
 	/*font-weight: bold;*/
-	padding: 2px;
 	background: #181d1f;
 	color: white;
 	display: block;
@@ -131,9 +158,10 @@ nav a:hover {
   -o-transition:background 250ms; /* For Safari 3.1 to 6.0 */
 	transition:background 250ms;
 	text-decoration: none;
+	box-shadow: 0px 0px 4px #888888;
 
 }
-#work article a:hover{
+#work article a:hover, .links a:hover{
 	background: #e74c3c;
 }
 #work article a div{
@@ -147,6 +175,13 @@ nav a:hover {
 }
 .item.more {
 	height: 220px;
+}
+.post img{
+	box-shadow: 0px 0px 4px #888888;
+}
+#project{
+	margin-bottom: 45px;
+	margin-top: 3px;
 }
 #about{
 	padding-top: 35px;
@@ -174,9 +209,6 @@ nav a:hover {
 		nav ul{
 			float: none;
 		}
-		nav ul li{
-			margin: 0 20px 0 0;
-		}
 		footer{
 			text-align: center;
 		}
@@ -189,13 +221,26 @@ nav a:hover {
 		.item.more {
 			height: auto;
 		}
+		#title{
+			text-align: center;
+			margin-bottom: 10px;
+		}
+		#post_img{
+			margin-bottom: 20px;
+		}
 	}
 
 	/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
 	@media only screen and (min-width: 480px) and (max-width: 767px) {}
 
 	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
-	@media only screen and (max-width: 479px) {}
+	@media only screen and (max-width: 479px) {
+		nav ul li:nth-child(n+2) {
+	    display: inline;
+	    margin: 0 0 0 5px;
+		}
+ 
+	}
 
 
 /* #Font-Face
