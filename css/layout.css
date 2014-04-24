@@ -37,7 +37,7 @@ body:before {
 	width:0;
 	margin-top:-32767px;/
 }
-.outer-center {
+/*.outer-center {
     float: right;
     right: 50%;
     position: relative;
@@ -49,7 +49,7 @@ body:before {
 }
 .clear {
     clear: both;
-}
+}*/
 .full-width{
 	width: 100%;
 }
@@ -128,6 +128,7 @@ nav a:hover {
 	color: white;
 	display: inline-block;
 	padding: 10px 15px;
+	margin-left: 10px;
 	border-radius: 10px 10px 8px 8px;
 	-webkit-transition:background 250ms; /* For Safari 3.1 to 6.0 */
   -moz-transition:background 250ms; /* For Safari 3.1 to 6.0 */
@@ -136,6 +137,7 @@ nav a:hover {
 	text-decoration: none;
 	font-weight: bold;
 	vertical-align: middle;
+	float: right;
 }
 .links a:nth-child(2){
 	margin-left: 10px;
@@ -161,7 +163,8 @@ nav a:hover {
   -o-transition:background 250ms; /* For Safari 3.1 to 6.0 */
 	transition:background 250ms;
 	text-decoration: none;
-	box-shadow: 0px 0px 4px #888888;
+	box-shadow: 0px 0px 6px rgba(0,0,0,0.3);
+	height: 100%;
 
 }
 #work article a:hover, .links a:hover{
@@ -177,16 +180,22 @@ nav a:hover {
 	margin-bottom: 20px;
 }
 .item.more {
-	height: 220px;
-	margin-bottom: 5px;
+	/*height: 220px;*/
+	margin-bottom: 15px;
+}
+.item.more article{
+	height: 100%;
 }
 .post img{
-	box-shadow: 0px 0px 4px #888888;
+	box-shadow: 0px 0px 6px rgba(0,0,0,0.3);
+	max-width: 100%;
+	margin-bottom: 5px;
 }
 #project{
 	margin-bottom: 45px;
 	margin-top: 3px;
 }
+
 #about{
 	padding-top: 35px;
 	border-top: 1px solid;
@@ -220,7 +229,7 @@ nav a:hover {
 			display: none;
 		}
 		#work div.item{
-			margin-bottom: 5px;
+			margin-bottom: 20px;
 		}
 		.item.more {
 			height: auto;
@@ -229,8 +238,8 @@ nav a:hover {
 			text-align: center;
 			margin-bottom: 10px;
 		}
-		#post_img{
-			margin-bottom: 20px;
+		#project .left{
+			margin-bottom: 30px;
 		}
 	}
 

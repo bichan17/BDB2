@@ -6,7 +6,7 @@ caption: Web Audio API/Canvas music synthesizer
 tech: 
   - HTML
   - CSS
-  - Object Oriented JavaScript
+  - JavaScript
   - Canvas
   - Web Audio API
 image-small: /images/waffle.jpg

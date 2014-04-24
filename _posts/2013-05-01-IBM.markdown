@@ -1,6 +1,6 @@
 ---
 layout: project
-title: IBM developerWorks Infographic
+title: IBM Tech Trends Chart
 categories: work
 caption: Interactive embeddable infographic
 tech: 
@@ -14,7 +14,7 @@ image-small: /images/ibm.jpg
 link: http://www.ibm.com/smarterplanet/us/en/centerforappliedinsights/article/techtrends.html
 ---
 
-The IBM developerWorks Infographic was another project I worked on during my time with [Brandlogic][brandlogic]. This chart is completely static and does not draw data from a database. Instead, it reads its data from a series of JSON files that are stored on the server. In order to build the infographic, the client sent us the data in the form of an Excel spreadsheet and it was my responsibility to write a script in Excel VBA that would generate the appropriate HTML markup and JSON files. This project came after the [SASB][sasb] chart was finished and I was able to reuse a lot of the work that I had done on that project for this one. After the data had a reliable way to be exported, I worked with a team of other developers to implement the rest of the chart's functionality in the [Highcharts JS][highcharts] library.
+The IBM Tech Trends Infographic was another project I worked on during my time with [Brandlogic][brandlogic]. This chart is completely static and does not draw data from a database. Instead, it reads its data from a series of JSON files that are stored on the server. In order to build the infographic, the client sent us the data in the form of an Excel spreadsheet and it was my responsibility to write a script in Excel VBA that would generate the appropriate HTML markup and JSON files. This project came after the [SASB][sasb] chart was finished and I was able to reuse a lot of the work that I had done on that project for this one. After the data had a reliable way to be exported, I worked with a team of other developers to implement the rest of the chart's functionality in the [Highcharts JS][highcharts] library.
 
 [brandlogic]: http://www.brandlogic.com/
 [sasb]: /work/SASB/

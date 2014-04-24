@@ -6,7 +6,7 @@ caption: A small toy using box2djs physics
 tech: 
   - HTML
   - CSS
-  - Object Oriented JavaScript
+  - JavaScript
   - box2dWeb physics engine
   - Ivank graphics library
 image-small: /images/carrier.jpg

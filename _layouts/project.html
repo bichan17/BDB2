@@ -7,10 +7,20 @@ type: project
 
   <div class="post">
     <h3 class="sixteen columns" id="title">{{ page.title }}</h3>
-    <img id="post_img" class="nine columns" src="{{ page.image-small }}" alt="{{ page.title }}">
-    <div class="seven columns">
+    <div class="nine columns left">
+      <img id="post_img" src="{{ page.image-small }}" alt="{{ page.title }}">
+      <div class="links">
+        {% if page.link %}
+        <a id="launch" target="_blank" href="{{ page.link }}">Launch Project</a>
+        {% endif %}
 
-      {{ content }}
+        {% if page.github %}
+        <a id="github" target="_blank" href="{{ page.github }}">Github Repo</a>
+        {% endif %}
+      </div>
+    </div>
+    
+    <div class="seven columns">
       <div class="tech">
         <h4>Technologies Used</h4>
         <ul>
@@ -19,22 +29,7 @@ type: project
         {% endfor %}
         </ul>
       </div>
-      
-
-      <div class="links">
-        <div class="outer-center">
-            <div class="product inner-center">
-              {% if page.link %}
-              <a id="launch" target="_blank" href="{{ page.link }}">Launch Project</a>
-              {% endif %}
-
-              {% if page.github %}
-              <a id="github" target="_blank" href="{{ page.github }}">Github Repo</a>
-              {% endif %}
-            </div>
-        </div>
-        <div class="clear"></div>
-      </div>
+      {{ content }}
     </div>
   </div>
 </div>
