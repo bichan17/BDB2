@@ -7,7 +7,7 @@ tech:
   - Processing
   - Arduino
 image-small: /images/wanderlust.jpg
-link: http://sugarpeas.cias.rit.edu/
+link: http://vimeo.com/95558093
 github: https://github.com/SugarPeas/WanderLust
 ---
 

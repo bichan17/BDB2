@@ -2,12 +2,12 @@
 layout: project
 title: Carrier
 categories: work
-caption: A small toy using box2djs physics
+caption: A small toy using Box2dWeb physics
 tech: 
   - HTML
   - CSS
   - JavaScript
-  - box2dWeb physics engine
+  - Box2dWeb physics engine
   - Ivank graphics library
 image-small: /images/carrier.jpg
 link: /sites/carrier/
