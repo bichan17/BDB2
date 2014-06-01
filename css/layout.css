@@ -266,22 +266,30 @@ nav a:hover {
 
 @font-face {
   font-family: 'Montserrat';
-  font-style: normal;
-  font-weight: 400;
   src: url('montserrat-regular-webfont.eot');
   src: url('montserrat-regular-webfont.eot?#iefix') format('embedded-opentype'),
-       url('montserrat-regular-webfont.woff') format('woff'),
-       url('montserrat-regular-webfont.ttf') format('truetype'),
-       url('montserrat-regular-webfont.svg#montserratbold') format('svg');
+       url('montserrat-regular-webfont.ttf') format('truetype');
+  font-style: normal;
+  font-weight: 400;
 }
 
 @font-face {
   font-family: 'Montserrat';
-  font-style: normal;
-  font-weight: 700;
   src: url('montserrat-bold-webfont.eot');
   src: url('montserrat-bold-webfont.eot?#iefix') format('embedded-opentype'),
-       url('montserrat-bold-webfont.woff') format('woff'),
-       url('montserrat-bold-webfont.ttf') format('truetype'),
-       url('montserrat-bold-webfont.svg#montserratbold') format('svg');
+       url('montserrat-bold-webfont.ttf') format('truetype');
+  font-style: normal;
+  font-weight: 700;
 }
+
+/*@font-face { 
+font-family: 'bebas'; 
+src: url("../stylesheets/fonts/bebasneue-webfont.eot"); 
+src: url("../stylesheets/fonts/bebasneue-webfont.svg#bebas_neueregular") format("svg"), 
+			url("../stylesheets/fonts/bebasneue-webfont.eot?#iefix") format("embedded-opentype"), 
+			url("../stylesheets/fonts/bebasneue-webfont.woff") format("woff"), 
+			url("../stylesheets/fonts/bebasneue-webfont.ttf") format("truetype");
+font-weight: normal; 
+font-style: normal; 
+}*/
+
