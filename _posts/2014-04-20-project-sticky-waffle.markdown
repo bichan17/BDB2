@@ -3,6 +3,9 @@ layout: project
 title: Project Sticky Waffle
 categories: work
 caption: Web Audio API/Canvas music synthesizer
+role:
+  - Development
+  - Design
 tech: 
   - HTML
   - CSS

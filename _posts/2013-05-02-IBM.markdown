@@ -3,6 +3,8 @@ layout: project
 title: IBM Tech Trends Chart
 categories: work
 caption: Interactive embeddable infographic
+role:
+  - Development
 tech: 
   - HTML
   - CSS

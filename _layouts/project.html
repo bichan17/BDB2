@@ -21,7 +21,14 @@ type: project
     </div>
     
     <div class="seven columns">
+      
       <div class="tech">
+        <h4>Role</h4>
+        <ul>
+        {% for role in page.role %}
+          <li>- {{ role }}</li>
+        {% endfor %}
+        </ul>
         <h4>Technologies Used</h4>
         <ul>
         {% for tech in page.tech %}

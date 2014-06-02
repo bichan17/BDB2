@@ -3,6 +3,9 @@ layout: project
 title: Show Wire
 categories: work
 caption: Google Maps and Last.fm API Mashup
+role:
+  - Development
+  - Design
 tech: 
   - HTML
   - CSS
