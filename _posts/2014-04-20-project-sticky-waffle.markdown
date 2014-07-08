@@ -13,10 +13,10 @@ tech:
   - Canvas
   - Web Audio API
 image-small: /images/waffle.jpg
-link: /sites/sticky-waffle/
+link: http://stickywaffle.com
 github: http://github.com/bichan17/sticky-waffle
 ---
 
-Sticky Waffle is a music synthesizer and visualizer that was built using the Web Audio API, the HTML Canvas, and object oriented JavaScript. This project is a product of a collaboration between [Luis Rosario][luis] and I. Using a modular design pattern, we divided the work so that I wrote the synthesizer half while Luis wrote the visualizer half, and together we worked to unite the two.
+An in-browser keyboard synthesizer built using the Web Audio API and HTML Canvas. This project began in Spring of 2013 when [Luis Rosario][luis] and I collaborated on building a small prototype of it for class. This current version has been entirely redesigned and reworked by myself.
 
 [luis]: http://www.luisrosar.io
