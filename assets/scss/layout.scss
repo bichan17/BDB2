@@ -1,0 +1,284 @@
+/*
+* Skeleton V1.2
+* Copyright 2011, Dave Gamache
+* www.getskeleton.com
+* Free to use under the MIT license.
+* http://www.opensource.org/licenses/mit-license.php
+* 6/20/2012
+*/
+
+/* Table of Content
+==================================================
+	#Site Styles
+	#Page Styles
+	#Media Queries
+	#Font-Face */
+
+/* #Site Styles
+================================================== */
+
+html, body {height: 100%;}
+
+#wrap {min-height: 100%;}
+
+#main {overflow:auto;
+	padding-bottom: 21px;}  /* must be same height as the footer */
+
+footer {position: relative;
+	margin-top: -21px; /* negative value offooter height */
+	height: 21px;
+	clear:both;} 
+
+/*Opera Fix*/
+body:before {
+	content:"";
+	height:100%;
+	float:left;
+	width:0;
+	margin-top:-32767px;
+}
+.full-width{
+	width: 100%;
+}
+.content{
+	margin-top: 3px;
+}
+header{
+	color: #181d1f;
+	margin-top: 10px;
+
+}
+header h1{
+	font-weight: bold;
+	font-size: 38px;
+	margin: 0;
+}
+header h2{
+	font-size: 20px;
+	line-height: 10px;
+	color: #797979;
+}
+header a{
+	text-decoration: none;
+	color: #181d1f;
+}
+header a:hover{
+	color: #181d1f;
+}
+
+
+footer{
+	background-color: #181d1f;
+	color: #ecf0f1;
+}
+footer .container{
+	margin-bottom: 0 !important;
+}
+
+footer span.right a{
+	color: #ecf0f1;
+}
+.right{
+	float: right;
+}
+
+body .container{
+	margin-bottom: 35px;
+}
+nav {
+    margin: 25px 0 0 0;
+    font-size: 21px;
+}
+
+nav ul{
+	float: right;
+}
+nav ul li {
+    display: inline;
+}
+nav ul li:nth-child(n+2) {
+    display: inline;
+    margin: 0 0 0 20px;
+}
+ 
+nav a {
+    -webkit-transition:color 250ms; /* For Safari 3.1 to 6.0 */
+    -moz-transition:color 250ms; /* For Safari 3.1 to 6.0 */
+    -o-transition:color 250ms; /* For Safari 3.1 to 6.0 */
+		transition:color 250ms;
+}
+ 
+.butt{
+	display: none;
+}
+nav a:hover {
+    color: #e74c3c;
+
+}
+.links a{
+	background: #181d1f;
+	color: white;
+	display: inline-block;
+	padding: 10px 15px;
+	margin-left: 10px;
+	border-radius: 10px 10px 8px 8px;
+	-webkit-transition:background 250ms; /* For Safari 3.1 to 6.0 */
+  -moz-transition:background 250ms; /* For Safari 3.1 to 6.0 */
+  -o-transition:background 250ms; /* For Safari 3.1 to 6.0 */
+	transition:background 250ms;
+	text-decoration: none;
+	font-weight: bold;
+	vertical-align: middle;
+	float: right;
+}
+.links a:nth-child(2){
+	margin-left: 10px;
+}
+#work{
+	margin-bottom: 15px;
+}
+#work h4{
+	margin-bottom: 15px;
+}
+#work img{
+	width: 100%;
+	 border-radius: 8px 8px 0 0; 
+}
+#work article a{
+	/*font-weight: bold;*/
+	background: #181d1f;
+	color: white;
+	display: block;
+	border-radius: 10px 10px 8px 8px;
+	-webkit-transition:background 250ms; /* For Safari 3.1 to 6.0 */
+  -moz-transition:background 250ms; /* For Safari 3.1 to 6.0 */
+  -o-transition:background 250ms; /* For Safari 3.1 to 6.0 */
+	transition:background 250ms;
+	text-decoration: none;
+	box-shadow: 0px 0px 6px rgba(0,0,0,0.3);
+	height: 100%;
+
+}
+#work article a:hover, .links a:hover{
+	background: #e74c3c;
+}
+#work article a div{
+	padding: 0px 10px 5px 10px;
+}
+#work article a h6{
+	font-weight: bold;
+}
+.item{
+	margin-bottom: 20px;
+}
+.item.more {
+	/*height: 220px;*/
+	margin-bottom: 15px;
+}
+.item.more article{
+	height: 100%;
+}
+.post img{
+	box-shadow: 0px 0px 6px rgba(0,0,0,0.3);
+	max-width: 100%;
+	margin-bottom: 5px;
+}
+#project{
+	margin-bottom: 45px;
+	margin-top: 3px;
+}
+
+#about{
+	padding-top: 35px;
+	border-top: 1px solid;
+}
+/* #Media Queries
+================================================== */
+
+	/* Smaller than standard 960 (devices and browsers) */
+	@media only screen and (max-width: 959px) {}
+
+	/* Tablet Portrait size to standard 960 (devices and browsers) */
+	@media only screen and (min-width: 768px) and (max-width: 959px) {
+		.item.more {
+			height: 183px;
+		}
+	}
+
+	/* All Mobile Sizes (devices and browser) */
+	@media only screen and (max-width: 767px) {
+		header{
+			text-align: center;
+		}
+
+		nav ul{
+			float: none;
+		}
+		footer{
+			text-align: center;
+		}
+		footer span{
+			display: none;
+		}
+		#work div.item{
+			margin-bottom: 20px;
+		}
+		.item.more {
+			height: auto;
+		}
+		#title{
+			text-align: center;
+			margin-bottom: 10px;
+		}
+		#project .left{
+			margin-bottom: 30px;
+		}
+	}
+
+	/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+	@media only screen and (min-width: 480px) and (max-width: 767px) {}
+
+	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+	@media only screen and (max-width: 479px) {
+		nav ul li:nth-child(n+2) {
+	    display: inline;
+	    margin: 0 0 0 5px;
+		}
+ 
+	}
+
+
+/* #Font-Face
+================================================== */
+/* 	This is the proper syntax for an @font-face file
+		Just create a "fonts" folder at the root,
+		copy your FontName into code below and remove
+		comment brackets */
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/montserrat-regular-webfont.eot');
+    src: url('../fonts/montserrat-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/montserrat-regular-webfont.svg#montserratregular') format('svg'),
+         url('../fonts/montserrat-regular-webfont.woff') format('woff'),
+         url('../fonts/montserrat-regular-webfont.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/montserrat-bold-webfont.eot');
+    src: url('../fonts/montserrat-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/montserrat-bold-webfont.svg#montserratbold') format('svg'),
+         url('../fonts/montserrat-bold-webfont.woff') format('woff'),
+         url('../fonts/montserrat-bold-webfont.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+
+}
+
