@@ -8,10 +8,18 @@ type: project
   <div class="post">
     <h3 class="sixteen columns" id="title">{{ page.title }}</h3>
     <div class="nine columns left">
-      <img id="post_img" src="{{ page.image-small }}" alt="{{ page.title }}">
+      <img id="post_img" src="/assets/images/{{ page.image-small }}" alt="{{ page.title }}">
       <div class="links">
         {% if page.link %}
-        <a id="launch" target="_blank" href="{{ page.link }}">Launch Project</a>
+          {% if page.link-copy %}
+            <a id="launch" target="_blank" href="{{ page.link }}">{{ page.link-copy }}</a>
+          {% else %}
+            <a id="launch" target="_blank" href="{{ page.link }}">View Project</a>
+          {% endif %}
+        {% endif %}
+
+        {% if page.docs %}
+        <a id="docs-link" target="_blank" href="{{ page.docs }}">View Documentation</a>
         {% endif %}
 
         {% if page.github %}

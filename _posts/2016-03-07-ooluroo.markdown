@@ -1,0 +1,19 @@
+---
+layout: project
+title: Ooluroo
+categories: work
+caption: Responsive Wordpress Website
+role:
+  - Development
+tech: 
+  - Wordpress
+  - PHP
+  - LESS
+  - JavaScript
+image-small: ooluroo.jpg
+link: http://ooluroo.com
+---
+
+A Responsive Wordpress website developed by myself while working at [Domani Studios][domani]
+
+[domani]: http://domanistudios.com/

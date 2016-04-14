@@ -1,4 +1,5 @@
 ---
+published: false
 layout: project
 title: IBM Tech Trends Chart
 categories: work
@@ -12,7 +13,7 @@ tech:
   - Highcharts JS
   - Excel VBA
   - Microsoft Excel
-image-small: /images/ibm.jpg
+image-small: ibm.jpg
 link: http://www.ibm.com/smarterplanet/us/en/centerforappliedinsights/article/techtrends.html
 ---
 

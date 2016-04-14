@@ -1,4 +1,5 @@
 ---
+published: false
 layout: project
 title: Show Wire
 categories: work
@@ -12,7 +13,7 @@ tech:
   - JavaScript
   - Google Maps API
   - Last.FM API
-image-small: /images/showwire.jpg
+image-small: showwire.jpg
 link: /sites/showwire/
 github: http://github.com/bichan17/showwire
 ---

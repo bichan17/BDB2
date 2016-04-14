@@ -1,4 +1,5 @@
 ---
+published: false
 layout: project
 title: Carrier
 categories: work
@@ -11,7 +12,7 @@ tech:
   - JavaScript
   - Box2dWeb physics engine
   - Ivank graphics library
-image-small: /images/carrier.jpg
+image-small: carrier.jpg
 link: /sites/carrier/
 github: http://github.com/bichan17/carrier
 ---

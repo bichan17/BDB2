@@ -7,3 +7,9 @@ Using [Jekyll][jekyll] for static page templating and [Skeleton][skeleton] as a 
 
 [skeleton]: http://www.getskeleton.com/
 [jekyll]:    http://jekyllrb.com
+
+
+To build: 
+
+`npm install`
+`gulp`

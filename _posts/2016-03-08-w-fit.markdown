@@ -1,0 +1,19 @@
+---
+layout: project
+title: W Hotels FIT
+categories: work
+caption: Responsive Microsite
+role:
+  - Development
+tech: 
+  - Wordpress
+  - PHP
+  - LESS
+  - JavaScript
+image-small: w-fit.jpg
+link: http://www.whotelsfit.com/
+---
+
+A Responsive Wordpress website developed by myself while working at [Domani Studios][domani]
+
+[domani]: http://domanistudios.com/

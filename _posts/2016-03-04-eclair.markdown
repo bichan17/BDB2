@@ -1,0 +1,19 @@
+---
+layout: project
+title: Le Merdian Eclair
+categories: work
+caption: Responsive Microsite
+role:
+  - Development
+tech: 
+  - Wordpress
+  - PHP
+  - LESS
+  - JavaScript
+image-small: eclair.jpg
+link: http://www.lemeridieneclair.com/
+---
+
+A Responsive Wordpress website developed by myself while working at [Domani Studios][domani]
+
+[domani]: http://domanistudios.com/

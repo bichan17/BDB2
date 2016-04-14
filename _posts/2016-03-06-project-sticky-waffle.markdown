@@ -12,7 +12,7 @@ tech:
   - JavaScript
   - Canvas
   - Web Audio API
-image-small: /images/waffle.jpg
+image-small: waffle.jpg
 link: http://stickywaffle.com
 github: http://github.com/bichan17/sticky-waffle
 ---

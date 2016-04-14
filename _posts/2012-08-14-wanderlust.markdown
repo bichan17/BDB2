@@ -9,8 +9,10 @@ role:
 tech: 
   - Processing
   - Arduino
-image-small: /images/wanderlust.jpg
+image-small: wanderlust.jpg
 link: http://vimeo.com/95558093
+link-copy: Watch Video
+docs: /assets/Wanderlust_Documentation.pdf
 github: https://github.com/SugarPeas/WanderLust
 ---
 
