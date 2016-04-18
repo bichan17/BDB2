@@ -2,7 +2,7 @@
 layout: project
 title: Wanderlust
 categories: work
-caption: Interactive installation
+caption: Interactive Installation
 role:
   - Development
   - Physical Computing

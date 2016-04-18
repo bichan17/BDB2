@@ -1,19 +1,18 @@
 ---
 layout: project
-title: Le Merdian Eclair
+title: Le Merdien Eclair
 categories: work
 caption: Responsive Microsite
 role:
   - Development
 tech: 
-  - Wordpress
   - PHP
-  - LESS
+  - CSS
   - JavaScript
 image-small: eclair.jpg
 link: http://www.lemeridieneclair.com/
 ---
 
-A Responsive Wordpress website developed by myself while working at [Domani Studios][domani]
+Le Merdien Eclair is a promotional microsite I developed while working at [Domani Studios][domani]. Its available in 9 languages and features rich social media integration along with tools for booking a stay at the hotels.
 
 [domani]: http://domanistudios.com/

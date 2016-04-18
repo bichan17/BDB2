@@ -8,12 +8,15 @@ role:
 tech: 
   - Wordpress
   - PHP
-  - LESS
+  - CSS
   - JavaScript
 image-small: ooluroo.jpg
 link: http://ooluroo.com
 ---
 
-A Responsive Wordpress website developed by myself while working at [Domani Studios][domani]
+
+Ooluroo is a responsive website built on Wordpress I developed while working at [Domani Studios][domani]. It features rich CSS3 animations and a level of polish needed to convey a tech focused and seamless message. Built using Wordpress [Pods][pods] and [Advanced Custom Field][acf] groups, it supports many different content types and is able to scale as this emerging brand releases new details about their product.
 
 [domani]: http://domanistudios.com/
+[pods]: http://pods.io/
+[acf]: https://www.advancedcustomfields.com/

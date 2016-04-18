@@ -6,14 +6,13 @@ caption: Responsive Microsite
 role:
   - Development
 tech: 
-  - Wordpress
   - PHP
-  - LESS
+  - CSS
   - JavaScript
 image-small: w-fit.jpg
 link: http://www.whotelsfit.com/
 ---
 
-A Responsive Wordpress website developed by myself while working at [Domani Studios][domani]
+W Hotels Fit is a promotional microsite I developed while working at [Domani Studios][domani]. Its available in 9 languages and features a subtle parallax scrolling on the background images along with many complex type treatments done in CSS.
 
 [domani]: http://domanistudios.com/
