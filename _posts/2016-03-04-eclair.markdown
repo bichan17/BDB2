@@ -13,6 +13,6 @@ image-small: eclair.jpg
 link: http://www.lemeridieneclair.com/
 ---
 
-Le Merdien Eclair is a promotional microsite I developed while working at [Domani Studios][domani]. Its available in 9 languages and features rich social media integration along with tools for booking a stay at the hotels.
+Le Merdien Eclair is a promotional microsite I developed while working at [Domani Studios][domani]. It's available in 9 languages and features rich social media integration along with tools for booking a stay at the hotels.
 
 [domani]: http://domanistudios.com/

@@ -13,6 +13,6 @@ image-small: w-fit.jpg
 link: http://www.whotelsfit.com/
 ---
 
-W Hotels Fit is a promotional microsite I developed while working at [Domani Studios][domani]. Its available in 9 languages and features a subtle parallax scrolling on the background images along with many complex type treatments done in CSS.
+W Hotels Fit is a promotional microsite I developed while working at [Domani Studios][domani]. It's available in 9 languages and features a subtle parallax scrolling on the background images along with many complex type treatments done in CSS.
 
 [domani]: http://domanistudios.com/
