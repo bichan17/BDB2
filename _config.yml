@@ -1,4 +1,4 @@
 name: Eric Bichan New Media Developer
 markdown: redcarpet
 highlighter: 'pygments'
-permalink: /:categories/:title
+permalink: /:categories/:title.html
